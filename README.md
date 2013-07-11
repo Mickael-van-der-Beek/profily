@@ -19,6 +19,7 @@ $('img').profily({
 ###Options
 ```
 $('img').profily({
+	
 	// Choose the font family you want to display (Default : Calibri)
 	fontFamily    : 'Calibri',
 
@@ -32,6 +33,8 @@ $('img').profily({
 
 #License
 
-Copyright 2013 Julien Henrotte
+Copyright 2013 Julien Henrotte.
+
 Released under the MIT License.
+
 You are free to use as long as the copyright header is left intact.
