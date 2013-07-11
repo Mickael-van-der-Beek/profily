@@ -7,14 +7,16 @@ This is a little snippet to replace empty profile picture.
     $('img').profily();
 
 ###With options
-```$('img').profily({
+```
+$('img').profily({
 	fontFamily    : 'Calibri',
 	attribute     : 'alt'
 });
 ```
 
 ###Options
-```$('img').profily({
+```
+$('img').profily({
 	// Choose the font family you want to display (Default : Calibri)
 	fontFamily    : 'Calibri',
 
