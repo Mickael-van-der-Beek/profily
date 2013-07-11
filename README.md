@@ -3,9 +3,13 @@
 This is a little snippet to replace empty profile picture.
 
 ##Usage
+###Simple usage
+    $('img').profily();
 
-You just need to use the Alt attribut for the First and Last name, and use a data-image to 0.
+###With option
+	$('img').profily({
+		fontFamily    : 'Calibri',
+		attribute     : 'alt'
+	});
 
-1. 0 -> change the picture
-
-2. 1 -> doesn't
+You can set an other font family (Calibri by default), and choose an other attribut to get the fullname (alt by default)
