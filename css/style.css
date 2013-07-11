@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+/* line 5, ../scss/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 9, ../scss/style.scss */
+h1 {
+  margin: 20px 0 5px 5px;
+}
+
+/* line 13, ../scss/style.scss */
+img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin: 5px;
+}
