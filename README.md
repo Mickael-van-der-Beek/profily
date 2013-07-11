@@ -14,12 +14,12 @@ This is a little snippet to replace empty profile picture.
 
 ###Options
 	$('img').profily({
-		//Choose the font family you want to display (Default : Calibri)
+		// Choose the font family you want to display (Default : Calibri)
 		fontFamily    : 'Calibri',
 
-		//Choose the attribute you want to use for the fullname (Default : alt)	
+		// Choose the attribute you want to use for the fullname (Default : alt)	
 		attribute     : 'alt',
 
-		//If you want to get an other color when the backround if yoo light (Default : false)
+		// If you want to get an other color when the backround if yoo light (Default : false)
 		light		  : true
 	});
