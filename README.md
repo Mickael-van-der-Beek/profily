@@ -6,7 +6,7 @@ This is a little snippet to replace empty profile picture.
 ###Simple usage
     $('img').profily();
 
-###With option
+###With options
 	$('img').profily({
 		fontFamily    : 'Calibri',
 		attribute     : 'alt'
