@@ -5,8 +5,9 @@
 		var fullName;
 
 		var settings = $.extend({
-			fontFamily    : 'Calibri',
-			attribute    : 'alt'
+			fontFamily   : 'Calibri',
+			attribute    : 'alt',
+			light 		 : true
 		}, options);
 
 		return this.each( function() {
@@ -54,7 +55,11 @@
 				var colorCheck = colorMod[moduloResult].replace("#", '');
 				
 				//Check if the color is light or dark 
-				context.fillStyle = isTooLightYIQ(colorCheck) ? '#31323a' : '#fff';
+				if(settings.light){
+					context.fillStyle = isTooLightYIQ(colorCheck) ? '#31323a' : '#fff';
+				}else{
+					context.fillStyle = 'white';
+				}
 				
 				//Construct canvas
 				x = canvas.width / 2,

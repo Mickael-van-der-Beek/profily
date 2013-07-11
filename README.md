@@ -12,4 +12,7 @@ This is a little snippet to replace empty profile picture.
 		attribute     : 'alt'
 	});
 
-You can set an other font family (Calibri by default), and choose an other attribut to get the fullname (alt by default)
+###Options
+	fontFamily //Choose the font family you want to display (Default : Calibri)
+	attribute //Choose the attribute you want to use for the fullname (Default : alt)
+	light //If you want to get an other color when the backround if yoo light (Default : false)
