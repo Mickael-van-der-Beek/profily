@@ -2,24 +2,24 @@
 // 2013 For Sagacify.com
 
 //replace empty profile picture
-function createCanvas(){
+function profily(){
 	$('img').each(function(){
 		if($(this).attr('data-image') == 0){
 			fullName = $(this).attr('alt');
-			createInitiale($(this),$(this).width(), $(this).height(),'Calibri', fullName);
+			createInitiale($(this),'Calibri', fullName);
 		}
 	});
 }
 
 //create all canvas
-function createInitiale(theCanvas,widthCanvas, heightCanvas, fontFamily, fullName){
+function createInitiale(theCanvas, fontFamily, fullName){
 	//Get the canvas, width + height
 	var canvas = document.createElement('canvas');
 	var getName = fullName;
 	
 	//Retrieve canvas widht and height
-	canvas.width = widthCanvas,
-	canvas.height = heightCanvas;
+	canvas.width = theCanvas.width(),
+	canvas.height = theCanvas.height();
 	//Get the fonsize, based on canvas width
 	var fontSize = canvas.width / 2 + 'px';
 
@@ -76,4 +76,4 @@ function isTooLightYIQ(hexcolor){
 }
 
 //replace empty profile picture
-createCanvas();
+profily();
