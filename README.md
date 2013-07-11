@@ -35,7 +35,7 @@ $('img').profily({
 
 (The MIT License)
 
-Copyright (c) 2013 Julien Henrotte [@Julien_he](https://twitter.com/Julien_He)
+Copyright (c) 2013 Julien Henrotte / [@Julien_he](https://twitter.com/Julien_He)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
