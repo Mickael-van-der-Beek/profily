@@ -1,6 +1,3 @@
-// Script by Julien Henrotte
-// 2013 For Sagacify.com
-
 //replace empty profile picture
 function profily(){
 	$('img').each(function(){
